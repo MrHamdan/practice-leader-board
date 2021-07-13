@@ -1,6 +1,7 @@
 /* Import Popping fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
@@ -159,6 +160,7 @@ hr{
     }
     .container{
         width: 100%;
+        padding: 0%;
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
@@ -174,6 +176,7 @@ hr{
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     .container{
         width: 100%;
+        padding: 0%;
     }
     .players{
         grid-template-columns: repeat(2, 1fr);
