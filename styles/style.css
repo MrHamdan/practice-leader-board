@@ -58,6 +58,7 @@ main{
     color: #562EFF;
     margin-top: 3px;
     font-size: 24px;
+    margin-bottom: 30px;
 }
 .players{
     display: grid;
